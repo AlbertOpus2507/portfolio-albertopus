@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-albertopus/static/css/main.570b3fbf.css",
-    "main.js": "/portfolio-albertopus/static/js/main.ce56aa99.js",
+    "main.js": "/portfolio-albertopus/static/js/main.3a1b9b68.js",
     "static/js/787.fb771931.chunk.js": "/portfolio-albertopus/static/js/787.fb771931.chunk.js",
     "static/media/light_video.mp4": "/portfolio-albertopus/static/media/light_video.c047515e11d1dd4200ca.mp4",
     "static/media/Finador-Bold.ttf": "/portfolio-albertopus/static/media/Finador-Bold.c76d338be27351457022.ttf",
@@ -19,11 +19,11 @@
     "static/media/GitHub2.svg": "/portfolio-albertopus/static/media/GitHub2.7831eb78a47e9f314e3c1dd4b2c4aa66.svg",
     "index.html": "/portfolio-albertopus/index.html",
     "main.570b3fbf.css.map": "/portfolio-albertopus/static/css/main.570b3fbf.css.map",
-    "main.ce56aa99.js.map": "/portfolio-albertopus/static/js/main.ce56aa99.js.map",
+    "main.3a1b9b68.js.map": "/portfolio-albertopus/static/js/main.3a1b9b68.js.map",
     "787.fb771931.chunk.js.map": "/portfolio-albertopus/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.570b3fbf.css",
-    "static/js/main.ce56aa99.js"
+    "static/js/main.3a1b9b68.js"
   ]
 }
