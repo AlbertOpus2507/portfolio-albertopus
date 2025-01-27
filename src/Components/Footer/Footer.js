@@ -28,7 +28,7 @@ const Footer = () => {
             sx={{
               color: '#707088'
             }}
-            href="mailto:andrewtran1720@gmail.com"
+            href="mailto:qat3@case.edu"
           >
             <EmailOutlinedIcon sx={{ fontSize: '50px' }}/>
           </IconButton> */}
@@ -69,7 +69,7 @@ const Footer = () => {
               color: fontColor,
               fill: fontColor
             }}
-            href="https://github.com/andrewdev1720"
+            href="https://github.com/albertopus2507"
           >
             <GitHubIcon sx={{ fontSize: '30px', fill: fontColor }}/>
           </IconButton>
@@ -87,7 +87,7 @@ const Footer = () => {
             sx={{
               color: fontColor
             }}
-            href="mailto:andrewtran1720@gmail.com"
+            href="mailto:qat3@case.edu"
           >
             <EmailOutlinedIcon sx={{ fontSize: '30px' }}/>
           </IconButton>

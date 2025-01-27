@@ -96,10 +96,10 @@ const NavBar = (props) => {
           <IconButton disableRipple={true} sx={iconButtonStyle} href="https://www.linkedin.com/in/tran-anh-quan/" target="_blank">
             <LinkedInIcon sx={{ fontSize: '30px' }}/>
           </IconButton>
-          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/andrewdev1720/" target="_blank">
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/albertopus2507/" target="_blank">
             <GitHubIcon sx={{ fontSize: '30px' }}/>
           </IconButton>
-          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/andrewdev1720/" target="_blank">
+          <IconButton disableRipple={true} sx={iconButtonStyle} href="https://github.com/albertopus2507/" target="_blank">
             <LogoDevIcon sx={{ fontSize: '30px' }}/>
           </IconButton>
           <IconButton disableRipple={true} sx={iconButtonStyle} href="https://discord.gg/8BEPYQ7m" target="_blank">
