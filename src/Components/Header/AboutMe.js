@@ -54,6 +54,7 @@ const AboutMe = () => {
       <Grid item>
         <Typography
           sx={{
+            marginBottom: '-30px',
             fontWeight: 'bold',
             color: fontColor,
             fontSize: '100px',
@@ -62,7 +63,7 @@ const AboutMe = () => {
           }}
           className="gradient-color"
         >
-          ANDREW TRAN
+          Albert TRAN
         </Typography>
       </Grid>
 
@@ -125,7 +126,7 @@ const AboutMe = () => {
         sx={{
           fontWeight: 'bold',
           color: 'black',
-          fontSize: '20px',
+          fontSize: '18px',
           fontFamily: 'Ubuntu, sans-serif',
           width: '100%',
           textAlign: 'justify',
@@ -133,10 +134,11 @@ const AboutMe = () => {
         }}
       >
         Hi, this is my portfolio. I am a rising senior interested in CS, hungry to make measurable contributions. 
-        I enjoy the concept of understanding! 
-        That's why I love listening, reading, and watching creations of consciousness, like everybody else.
+        I enjoy the concept of understanding, especially when it comes to languages and music! 
           The more I understand the message conveyed, the more I believe I have a role to fulfill.
-          And on my way to figuring out that role, I see my knowledge, skillset, and commitment fulfilling the role of a builder, part of an organization with an impactful, initiative driven mindset.
+          And on my way to figuring out that role, I see my knowledge, skillset, 
+          and commitment fulfilling the role of a builder, part of an organization with an impactful, initiative driven mindset.
+
       </Typography>
 
       {/* Second paragraph, shown only if showFullText is true
@@ -162,7 +164,7 @@ const AboutMe = () => {
           sx={{
             fontWeight: 'bold',
             color: 'black',
-            fontSize: '20px',
+            fontSize: '18px',
             fontFamily: 'Ubuntu, sans-serif',
             width: '100%',
             textAlign: 'justify',
@@ -193,7 +195,7 @@ const AboutMe = () => {
         onClick={handleToggleFullText} 
         sx={{ fontSize: '12px', padding: '0', marginTop: '5px', marginRight: '0px' }}
       >
-        {showFullText ? "Read Less" : "Read More"}
+        {showFullText ? "See less" : "Know more about me"}
       </Button>
     </Box>
   )}

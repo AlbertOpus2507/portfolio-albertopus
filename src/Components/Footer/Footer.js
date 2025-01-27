@@ -105,7 +105,7 @@ const Footer = () => {
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', color: '#4C4C4C', paddingBottom: '10px'}}>
         <div style ={{width: '40%', textAlign: 'center'}}>
-          © 2023 Andrew Tran
+          © 2023 Albert Tran
         </div>
       </Grid>
     </Grid>

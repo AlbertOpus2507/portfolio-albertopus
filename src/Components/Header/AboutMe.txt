@@ -25,7 +25,7 @@ const AboutMe = () => {
           }}
           className="gradiant-color"
         >
-          ANDREW TRAN
+          Albert Tran
         </Typography>
       </Grid>
       <Box

@@ -169,7 +169,7 @@ const IntroContainer = () => {
               Who am I
             </Grid>
             <Grid item style={{marginTop: '16px', marginBottom: '16px', fontSize: '40px', fontFamily: 'FF-DIN-PRO-COND_BOLD', color: fontColor}}>
-              Andrew Tran
+              Albert Tran
             </Grid>
             <Grid item style={{marginBottom: '16px', fontSize: '18px', fontFamily: 'FF-DIN-Pro-Medium', color: fontColor}}>
               Full-stack Developer Software Engineer
