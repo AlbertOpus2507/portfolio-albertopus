@@ -63,7 +63,7 @@ const AboutMe = () => {
           }}
           className="gradient-color"
         >
-          Albert TRAN
+          ALBERT TRAN
         </Typography>
       </Grid>
 
@@ -171,8 +171,8 @@ const AboutMe = () => {
             marginBottom: '10px'
           }}
         >
-          And of course, here are some of my favorite minds whose works I enjoy a lot: Thom Yorke, Roger Waters, Andy Weir, Hammock, 
-          Dan Harmon, Neil deGrasse Tyson, Steve Jobs, James Gosling, Albert Einstein, Alan Turing, Aristotle, and Albert Hoffman.
+          And of course, here are some of my favorite minds whose works I enjoy a lot: Ludwig Van Beethoven, Bob Dylan, George Frideric Handel, Wolfgang Amadeus Mozart, Johann Sebastian Bach
+          Radio Head, Artic Monkey, Roger Waters, Dan Harmon, Steve Jobs, Albert Einstein, Alan Turing, Rene Descartes, and Albert Hoffman.
         </Typography>
       )}
 

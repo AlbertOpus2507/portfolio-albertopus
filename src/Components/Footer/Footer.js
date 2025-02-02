@@ -11,7 +11,7 @@ import { ReactComponent as DiscordSvg } from '../../Asset/Discord.svg';
 const Footer = () => {
   const fontColor = useContext(FontColorContext);
   return (
-    <Grid container direction='column' sx={{backgroundColor: fontColor === 'white' ? '#151515' : '#F7F7FF', paddingTop: '96px'}}>
+    <Grid container direction='column' sx={{backgroundColor: fontColor === 'white' ? '#151515' : '#F7F7FF', paddingTop: '20px'}}>
       <Grid item xs={4}  sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Typography
             sx={{
@@ -37,20 +37,30 @@ const Footer = () => {
         <div style ={{width: '50%', textAlign: 'center'}}>
         Let me know more about you.
         It’s always fascinating to see how two consciousnesses share their narratives and the profound dictionaries they’ve crafted to make sense of their respective surroundings.
-            Checkout some of these tracks
+            Checkout some of these albums (remember to scroll down for the control options)
         </div>
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
-        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/3AJwUDP919kvQ9QcozQPxg?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div style={{ width: '30%', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/beethoven-the-symphonies/1452338813" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
-      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
-        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/3bXH9y487cnLfA6VWXefaB?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-      <div style={{ width: '30%', height: '100px', margin: '10px' }}>
-        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://open.spotify.com/embed/track/07qhJwWDX3HEzuuY55x3P4?utm_source=generator" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-
+      <div style={{ width: '30%', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/the-times-they-are-a-changin/159476281" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>  
+      <div style={{ width: '30%', height: '100%', margin: '10px' }}>
+        <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/steve-jobs-original-motion-picture-soundtrack/1043783612" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>  
+      </Grid>
+      <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+        <div style={{ width: '30%', height: '100%', margin: '10px' }}>
+          <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/beethoven-piano-sonatas-path%C3%A9tique-moonlight-appassionata/1539095564" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>  
+        <div style={{ width: '30%', height: '100%', margin: '10px' }}>
+          <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/in-rainbows/1109714933" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div style={{ width: '30%', height: '100%', margin: '10px' }}>
+          <iframe title="music track" style={{ borderRadius: "12px" }} src="https://embed.music.apple.com/us/album/tranquility-base-hotel-casino/1367926252" width="100%" height="100%" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>    
       </Grid>
       <Grid item>
         <div style={{ textAlign: "center" }}>
@@ -105,7 +115,7 @@ const Footer = () => {
       </Grid>
       <Grid item xs={4} sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px', color: '#4C4C4C', paddingBottom: '10px'}}>
         <div style ={{width: '40%', textAlign: 'center'}}>
-          © 2023 Albert Tran
+          © 2024 Albert Tran
         </div>
       </Grid>
     </Grid>

@@ -88,6 +88,7 @@ const IntroContainer = () => {
         </motion.div>
           <Typography
             sx={{
+              marginTop: '5%',
               fontSize: '50px',
               fontWeight: 'bold',
               color: fontColor,
@@ -98,7 +99,7 @@ const IntroContainer = () => {
           >
             LET ME INTRODUCE
           </Typography>
-          <hr style={{ width: '20%', textAlign: 'left', marginLeft: '0', marginTop: '10px', borderColor: '#e5202b' }} />
+          <hr style={{ width: '20%', textAlign: 'left', marginLeft: '0', marginTop: '5%', borderColor: '#e5202b' }} />
       </div>
       {/* <div style={{position: 'relative', height: '30px'}}>
         <div id="running-text">You have been rick rolled!</div>
