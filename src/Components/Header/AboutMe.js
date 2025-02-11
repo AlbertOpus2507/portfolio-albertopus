@@ -171,7 +171,7 @@ const AboutMe = () => {
             marginBottom: '10px'
           }}
         >
-          And of course, here are some of my favorite minds whose works I enjoy a lot: Ludwig Van Beethoven, Bob Dylan, George Frideric Handel, Wolfgang Amadeus Mozart, Johann Sebastian Bach
+          And of course, here are some of my favorite minds whose works I enjoy a lot: Ludwig Van Beethoven, Bob Dylan, George Frideric Handel, Wolfgang Amadeus Mozart, Johann Sebastian Bach,
           Radio Head, Artic Monkey, Roger Waters, Dan Harmon, Steve Jobs, Albert Einstein, Alan Turing, Rene Descartes, and Albert Hoffman.
         </Typography>
       )}

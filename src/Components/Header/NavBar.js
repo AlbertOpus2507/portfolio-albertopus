@@ -25,7 +25,7 @@ const NavBar = (props) => {
     { name: 'Introduction', id: 'introduction', duration: '500'},
     { name: 'Experience', id: 'experience', duration: '700'},
     { name: 'Projects', id: 'projects', duration: '800'},
-    { name: 'My Tech', id: 'tech', duration: '1000'},
+    { name: 'Listening to', id: 'music', duration: '1000'},
   ];
   const containerStyle = {
     paddingLeft:'64px',
